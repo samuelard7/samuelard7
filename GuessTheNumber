@@ -1,0 +1,73 @@
+import random
+comp=random.randint(1,100)
+richard=True
+print("Welcome to the Number Guessing Game!")
+print("I'm thinking of a number between 1 and 100.")
+while(richard):
+    diff=input("Choose a difficulty. Type 'easy' or 'hard' : ")
+    if(diff=='easy'):
+        n=10
+        while(n>0):
+            if(n==1):
+                print(f"You have {n} attempt remaining to guess the number.")
+            elif(n!=1):
+                print(f"You have {n} attempts remaining to guess the number.")
+            user=int(input("Make a guess: "))
+            if(user>comp):
+                n=n-1
+                if(n!=0):
+                    print("Too High.")
+                    print("Guess Again.")
+                if(n==0):
+                    print("Too High Attempts Exceeded !!! You Lose")
+                    print(f"The Number was {comp}")
+                    richard=False
+            elif(user<comp):
+                n=n-1
+                if(n!=0):
+                    print("Too Low.")
+                    print("Guess Again.")
+                if(n==0):
+                    print("Too Low Attempts Exceeded !!! You Lose")
+                    print(f"The Number was {comp}")
+                    richard=False
+            elif(user==comp):
+                print(f"You got it! The answer was {comp}")
+                richard=False
+                break
+
+    elif(diff=='hard'):
+        n=5
+        while(n>0):
+            if(n==1):
+                print(f"You have {n} attempt remaining to guess the number.")
+            elif(n!=1):
+                print(f"You have {n} attempts remaining to guess the number.")
+            user=int(input("Make a guess: "))
+            if(user>comp):
+                n=n-1
+                if(n!=0):
+                    print("Too High.")
+                    print("Guess Again.")
+                if(n==0):
+                    print("Too High Attempts Exceeded !!! You Lose")
+                    print(f"The Number was {comp}")
+                    richard=False
+            elif(user<comp):
+                n=n-1
+                if(n!=0):
+                    print("Too Low.")
+                    print("Guess Again.")
+                if(n==0):
+                    print("Too Low Attempts Exceeded !!! You Lose")
+                    print(f"The Number was {comp}")
+                    richard=False
+            elif(user==comp):
+                    print(f"You got it! The answer was {comp}")
+                    richard=False
+                    break
+            
+        
+        
+    else:
+        print("Input Error!! TRY AGAIN")
