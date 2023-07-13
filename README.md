@@ -9,4 +9,3 @@ Guessing Game
 -> A mind Teaser.
 
 
-### Feel free to copy the code. And update it with your creativity. 
