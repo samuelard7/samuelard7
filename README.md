@@ -6,7 +6,7 @@ Guessing Game
 
 -> It has two difficulty levels Easy and Hard.
 
--> Interesting and mind-teasing.
+-> A mind Teaser.
 
 
 ### Feel free to copy the code. And update it with your creativity. 
