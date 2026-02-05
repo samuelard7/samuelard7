@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Engineer
 --------
 
-I love programming and Data Science. I have a passion for full-stack development and Android development. I am exploring all the different skill sets every day.
+I love programming and Data Science. I have a passion for full-stack development and Generative AI. I am exploring all the different skill sets every day.
 
 * 🌍  I'm based in New Delhi
 * ✉️  You can contact me at [samuelrichard214@gmail.com](mailto:samuelrichard214@gmail.com)
